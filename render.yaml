@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: eyecheck-ai-frontend
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./build
+    envVars:
+      - key: REACT_APP_HF_SPACE_URL
+        value: https://OctAnE12v1-strabismus.hf.space
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
