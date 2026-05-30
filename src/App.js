@@ -377,4 +377,8 @@ export default function App() {
       )}
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f1ef6f9 (Changes made which were given by lighthouse report)
