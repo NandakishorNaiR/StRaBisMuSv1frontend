@@ -384,9 +384,6 @@ export default function App() {
 
   return (
     <>
-      {/* OPTIMIZATION A11Y: skip link — lets keyboard users jump to content */}
-      <a href="#main-content" className="skip-link">Skip to main content</a>
-
       <div className="app">
         {/* ── HEADER / HERO ── */}
         {/* OPTIMIZATION: <header> semantic landmark for screen readers */}
